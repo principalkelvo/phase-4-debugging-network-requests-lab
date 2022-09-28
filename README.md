@@ -62,12 +62,15 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: NameError
+  checked on error message and realized it doesn't get a Toy name error from the  backend. changed Toys to Toy.
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  checked on error message and realized it doesn't get a json from the  backend. Added as json value return in the backend create.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Added a route for destroy in routes.rb.
